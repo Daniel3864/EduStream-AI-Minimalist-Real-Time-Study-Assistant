@@ -13,14 +13,14 @@ A lightweight, single-file AI-powered Q&A tool built with Python, LangChain, and
 * **Resilient Output Parsing:** Handles varying chunk data types (`str`, `list`, `dict`) seamlessly.
 
 ## ⚙️ Setup & Installation
-## 1. Clone the Repository
+### 1. Clone the Repository
 Bash
 git clone [https://github.com/Daniel3864/EduStream-AI-Minimalist-Real-Time-Study-Assistant.git](https://github.com/Daniel3864/EduStream-AI-Minimalist-Real-Time-Study-Assistant.git)
 cd EduStream-AI-Minimalist-Real-Time-Study-Assistant
-## 2. Install Dependencies
+### 2. Install Dependencies
 Bash
 pip install python-dotenv langchain-google-genai langchain-core
-## 3. Configure API Key
+### 3. Configure API Key
 Create a .env file in the root directory and add your Google Gemini API key:
 Code snippet
 GOOGLE_API_KEY=your_actual_gemini_api_key_here
