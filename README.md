@@ -37,6 +37,12 @@ Interactive Input: Listens for user questions in a terminal loop.
 
 Payload Assembly: Packages system prompt constraints alongside user inputs.
 
+API Dispatch: Sends requests to Google Gemini with hyperparameter enforcement (temperature, max_output_tokens).
+
+Streaming & Normalization: Processes server-sent chunks and extracts raw text dynamically.
+
+Console Output: Flushes formatted tokens directly to the terminal display.
+
 ---
 
 ## 🛠️ Project Structure
@@ -48,9 +54,3 @@ StudyQA/
 ├── .gitignore          # Prevents tracking .env and bytecode
 └── README.md           # Project documentation
 
-
-API Dispatch: Sends requests to Google Gemini with hyperparameter enforcement (temperature, max_output_tokens).
-
-Streaming & Normalization: Processes server-sent chunks and extracts raw text dynamically.
-
-Console Output: Flushes formatted tokens directly to the terminal display.
