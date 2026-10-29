@@ -12,17 +12,6 @@ A lightweight, single-file AI-powered Q&A tool built with Python, LangChain, and
 * **Secure Environment:** Loads API credentials safely from a local `.env` file.
 * **Resilient Output Parsing:** Handles varying chunk data types (`str`, `list`, `dict`) seamlessly.
 
----
-
-## 🛠️ Project Structure
-
-```text
-StudyQA/
-├── app.py              # Main application logic & CLI loop
-├── .env                # Local environment secrets (API keys)
-├── .gitignore          # Prevents tracking .env and bytecode
-└── README.md           # Project documentation
-
 ## ⚙️ Setup & Installation
 ## 1. Clone the Repository
 Bash
@@ -47,6 +36,18 @@ Environment Initialization: Loads .env configuration securely.
 Interactive Input: Listens for user questions in a terminal loop.
 
 Payload Assembly: Packages system prompt constraints alongside user inputs.
+
+---
+
+## 🛠️ Project Structure
+
+```text
+StudyQA/
+├── app.py              # Main application logic & CLI loop
+├── .env                # Local environment secrets (API keys)
+├── .gitignore          # Prevents tracking .env and bytecode
+└── README.md           # Project documentation
+
 
 API Dispatch: Sends requests to Google Gemini with hyperparameter enforcement (temperature, max_output_tokens).
 
